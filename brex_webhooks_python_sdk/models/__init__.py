@@ -1,0 +1,41 @@
+# coding: utf-8
+
+# flake8: noqa
+
+# import all models into this package
+# if you have many models here with many references from one model to another this may
+# raise a RecursionError
+# to avoid this, import only the models that you directly need like:
+# from from brex_webhooks_python_sdk.model.pet import Pet
+# or import this package, but before doing it, use:
+# import sys
+# sys.setrecursionlimit(n)
+
+from brex_webhooks_python_sdk.model.application_status import ApplicationStatus
+from brex_webhooks_python_sdk.model.create_webhook_subscription_request import CreateWebhookSubscriptionRequest
+from brex_webhooks_python_sdk.model.expense_payment_event import ExpensePaymentEvent
+from brex_webhooks_python_sdk.model.expense_payment_status import ExpensePaymentStatus
+from brex_webhooks_python_sdk.model.expense_payment_status_updated_event import ExpensePaymentStatusUpdatedEvent
+from brex_webhooks_python_sdk.model.expense_payment_type import ExpensePaymentType
+from brex_webhooks_python_sdk.model.money import Money
+from brex_webhooks_python_sdk.model.page_webhook_subscription import PageWebhookSubscription
+from brex_webhooks_python_sdk.model.payment_type import PaymentType
+from brex_webhooks_python_sdk.model.product_application import ProductApplication
+from brex_webhooks_python_sdk.model.referral_activated_event import ReferralActivatedEvent
+from brex_webhooks_python_sdk.model.referral_application_status_changed_event import ReferralApplicationStatusChangedEvent
+from brex_webhooks_python_sdk.model.referral_created_event import ReferralCreatedEvent
+from brex_webhooks_python_sdk.model.referral_event import ReferralEvent
+from brex_webhooks_python_sdk.model.transfer_event import TransferEvent
+from brex_webhooks_python_sdk.model.transfer_failed_event import TransferFailedEvent
+from brex_webhooks_python_sdk.model.transfer_processed_event import TransferProcessedEvent
+from brex_webhooks_python_sdk.model.update_webhook_subscription_request import UpdateWebhookSubscriptionRequest
+from brex_webhooks_python_sdk.model.update_webhook_subscription_status import UpdateWebhookSubscriptionStatus
+from brex_webhooks_python_sdk.model.user_attributes import UserAttributes
+from brex_webhooks_python_sdk.model.user_event import UserEvent
+from brex_webhooks_python_sdk.model.user_updated_event import UserUpdatedEvent
+from brex_webhooks_python_sdk.model.webhook_event_type import WebhookEventType
+from brex_webhooks_python_sdk.model.webhook_secret import WebhookSecret
+from brex_webhooks_python_sdk.model.webhook_secret_status import WebhookSecretStatus
+from brex_webhooks_python_sdk.model.webhook_subscription import WebhookSubscription
+from brex_webhooks_python_sdk.model.webhook_subscription_status import WebhookSubscriptionStatus
+from brex_webhooks_python_sdk.model.webhook_subscriptions_list_secrets_response import WebhookSubscriptionsListSecretsResponse
